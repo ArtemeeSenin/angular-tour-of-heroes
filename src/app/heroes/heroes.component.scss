@@ -5,7 +5,7 @@
   padding: 0;
   width: 15em;
 }
-.heroes li {
+.heroes li a {
   position: relative;
   cursor: pointer;
   background-color: #EEE;
@@ -16,8 +16,8 @@
 }
 
 .heroes li:hover {
-  color: #607D8B;
   background-color: #DDD;
+  color: #607D8B;
   left: .1em;
 }
 
